@@ -1,8 +1,8 @@
-![portada](https://github.com/LuisCanchari/demo2/blob/main/ucv_ate.jpg)
+![portada](https://github.com/LuisCanchari/UCV_ING_WEB_2022_1_ATE/blob/main/ucv_ate.jpg)
 
 #  INGENIERIA WEB 2022-1
 
-![presentacion](https://github.com/LuisCanchari/demo2/blob/main/presentacion.jpg)
+![presentacion](https://github.com/LuisCanchari/UCV_ING_WEB_2022_1_ATE/blob/main/presentacion.jpg)
 
 
 ## DATOS DEL CURSO
