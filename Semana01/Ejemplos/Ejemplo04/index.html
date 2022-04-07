@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Presentacion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="#" name="solucionFormulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" 
+        placeholder="Escribe tu nombre" maxlength="30">
+    
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"
+         placeholder="correo@empresa.com" required maxlength="30">
+    
+        <label for="asunto">Asunto</label>
+        <select name="asunto" id="asunto" size="3">
+            <option value="PresupuestoWeb">Pedir presupuesto web</option>
+            <option value="CitaPrevia">Solicitar cita previa</option>
+            <option value="Otros">Otros</option>
+        </select>
+    
+        <label for="marketing">¿Cómo nos ha conocido?</label>
+        <div class="marketing">		
+            <input type="checkbox" value="amigo" id="amigo">
+            <label for="amigo">Un amigo</label>
+            <input type="checkbox" value="google" id="googleando">
+            <label for="googleando">Googleando</label>
+            <input type="checkbox" value="buzoneo" id="buzoneo">
+            <label for="buzoneo">Buzoneo</label>
+            <input type="checkbox" value="otros" id="otros">
+            <label for="otros">Otros</label>
+        </div>
+    
+        <label for="mensaje">Escribe tu mensaje</label>
+        <textarea name="mensaje" id="mensaje" maxlength="300"></textarea>
+    
+        <input type="checkbox" value="Acepta_RGPD" id="rgpd" required>
+        <label for="rgpd" class="rgpd">
+            He leído y acepto el 
+            <a href="#" target="_blanck">aviso legal y la política de privacidad.</a>
+        </label>
+    
+        <mark>@IngenieríaWeb</mark>
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+*{
+	box-sizing:border-box;
+	margin:0;padding:0;
+}
+form{
+	width:400px;
+	padding:32px;
+	border:1px solid #000;
+	border-radius:10px;
+	margin:32px auto;
+	background-color:#b2ccff;
+}
+input[type="text"],select,textarea{
+	display:block;
+	padding:4px 8px;
+	width:100%;
+	margin:8px 0;
+}
+textarea{height:96px;resize:none;}
+
+
+label{
+	font-weight:bold;
+	display:block;
+	margin:8px 0;
+}
+
+.marketing label,.rgpd{display:inline-block;font-weight:normal;}
+.rgpd{width:90%;}
+mark{float:right;}
